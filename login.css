@@ -1,0 +1,456 @@
+/*通用样式设置*/
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:#9B745C;
+}
+ul {
+    list-style:none;
+}
+i{
+    display:inline-block;
+    width: 60px;
+    height: 60px;
+}
+/*版心设置*/
+.w {
+    width: 1360px;
+    margin:0 auto;
+}
+body {
+    color:#888;
+}
+/*登录页面顶部*/
+.nav_head {
+    padding:10px;
+    height: 62px;
+    border-bottom:1px solid #000;
+}
+.nav_logo {
+    display:inline-block;
+    width: 70px;
+    height: 65px;
+}
+.nav_logo img {
+    width: 100%;
+    height: 100%;
+}
+/*nav部分右部样式*/
+.nav_right {
+    width: 290px;
+    height: 22px;
+    /*background: pink;*/
+    float:right;
+    margin-top:18px;
+    padding-top:3px;
+}
+.nav_right span img {
+    vertical-align:middle;
+}
+.nav_right a img {
+    vertical-align:middle;
+}
+
+.nav_right div{
+    width: 86px;
+    height: 20px;
+    background: #8B766C;
+    text-align:center;
+    line-height: 20px;
+    margin-right:8px;
+    float:left;
+}
+.nav_right div a{
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+
+}
+.nav_right span {
+    float:left;
+    color:#8D8D8D;
+    font-size:12px;
+    margin-top:3px;
+}
+.nav_right a {
+    float:left;
+    vertical-align: middle;
+    color:#8D8D8D;
+    margin-left:14px;
+}
+/*版心部分样式*/
+.banner {
+    height: 565px;
+    position:relative;
+    background: url(../images/login_bg.jpg) no-repeat center center;
+    position:relative;
+}
+/*用户登录模块样式*/
+
+.login_box {
+    position:absolute;
+    top:60px;
+    right:110px;
+    width: 252px;
+    height: 382px;
+    background: #FEFEFE;
+    border-radius:2px;
+    box-shadow:2px 3px 7px 5px #E5E5E5;
+    text-align:center;
+    padding:0 30px;
+}
+.login_box h3 {
+    height: 38px;
+    font-size:18px;
+    color:#9b745c;
+    text-align:center;
+    margin-top:14px;
+    font-weight:500;
+}
+.login_box input {
+    width: 214px;
+    height: 36px;
+    border:1px solid #e6e6e6;
+    border-radius:4px;
+    color:#666;
+    line-height:36px;
+    padding-left:38px;
+    margin-top:12px;
+    outline:none;
+    position:relative;
+}
+.login_user input {
+    width: 214px;
+    height: 36px;
+    border:1px solid #e6e6e6;
+    border-radius:4px;
+    color:#666;
+    line-height:36px;
+    padding-left:38px;
+    margin-top:12px;
+    outline:none;
+    position:relative;
+}
+.login_user .login_bg_1 {
+    width: 14px;
+    height: 16px;
+    background-image: url(../images/icon_mb.png);
+    position:absolute;
+    top:76px;
+    left:42px;
+    z-index:2;
+}
+/*验证码部分样式*/
+.login_ver{
+    width: 254px;
+    height: 36px;
+    position:relative;
+}
+.login_ver input {
+    width: 100px;
+    height: 36px;
+    float:left;
+    border-radius:4px;
+}
+.login_ver .login_bg_2 {
+    width: 14px;
+    height: 16px;
+    background-image: url(../images/icon_mb.png);
+    background-position: 0 136px;
+    position:absolute;
+    top:23px;
+    left:10px;
+    z-index:2;
+}
+.login_ver .getcodebtn {
+    width: 105px;
+    height: 36px;
+    float:right;
+    text-align:center;
+    font-size:12px;
+    line-height:36px;
+    background-color: #FDFDFD;
+    border:1px solid #E4E4E4;
+    margin-top:12px;
+    border-radius:4px;
+}
+.login_box p {
+    color:#000;
+    text-align:center;
+    font-size:12px;
+    margin-top:30px;
+}
+.login_box p a {
+    text-decoration:underline;
+}
+.check_box {
+    width: 254px;
+    height: 30px;
+    margin-top:15px;
+    font-size:12px;
+}
+.check_box input {
+    width: 13px;
+    height: 13px;
+}
+.login_btn {
+    display:block;
+    width: 248px;
+    height: 38px;
+    border:1px solid #8B766C;
+    color:#8B766C;
+    text-align:center;
+    line-height:38px;
+    font-size:14px;
+    margin-top:10px;
+}
+.login_btn:hover{
+    background-color: #8B766C;
+    color:#fff;
+}
+.login_ft {
+    width: 312px;
+    height: 55px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    border-top:1px solid #E1E3E3;
+    text-align:center;
+    lin-height:55px;
+}
+.login_ft a {
+    display:inline-block;
+    width: 21px;
+    height: 16px;
+
+    margin-top:18px;
+}
+.login_qq {
+    background-image: url(../images/ico-otherlogin.png);
+    background-position: 0 0;
+}
+.login_weix {
+    background-image: url(../images/ico-otherlogin.png);
+    background-position: -42px 0;
+}
+.login_weib {
+    background-image: url(../images/ico-otherlogin.png);
+    background-position: -85px 0;
+}
+.login_zhifub {
+    background-image: url(../images/ico-otherlogin.png);
+    background-position: -129px 0;
+}
+.login_ft h4{
+    font-size:12px;
+    width: 120px;
+    height: 18px;
+    background-color: #fefefe;
+    position:absolute;
+    top:-8px;
+    left:95px;
+    z-index:1;
+    color:#9b745c;
+}
+/*底部样式 start*/
+/*.footer{*/
+    /*height: 700px;*/
+/*}*/
+.footer_top{
+    height: 5px;
+    background-color: #f6f6f6;
+    box-shadow:4px -4px 10px 4px #f6f6f6;
+    margin-top:90px;
+}
+.footer_bd{
+    width: 960px;
+    height: 92px;
+    margin:0 auto;
+    padding:30px 0px;
+    padding-left:40px;
+    margin-left:220px;
+}
+.footer_bd a{
+    display:inline-block;
+    width: 70px;
+    height: 92px;
+    float:left;
+    margin-right:56px;
+    text-align:center;
+    padding:10px 0;
+}
+.footer_icon1 i{
+    background-image: url(../images/icon_footer.png);
+    background-position: 0 0;
+}
+.footer_icon2 i{
+    background-image: url(../images/icon_footer.png);
+    background-position: -60px 0;
+}
+.footer_icon3 i{
+    background-image: url(../images/icon_footer.png);
+    background-position: -120px 0;
+}
+.footer_icon4 i{
+    background-image: url(../images/icon_footer.png);
+    background-position: -180px 0;
+}
+.footer_icon5 i{
+    background-image: url(../images/icon_footer.png);
+    background-position: -240px 0;
+}
+.footer_icon6 i{
+    background-image: url(../images/icon_footer.png);
+    background-position: -300px 0;
+}
+.footer_icon7 i{
+    background-image: url(../images/icon_footer.png);
+    background-position: -360px 0;
+}
+.footer_icon1 i:hover{
+    background-position: 0 -60px;
+}
+.footer_icon2 i:hover{
+    background-position: -60px -60px;
+}
+.footer_icon3 i:hover{
+    background-position: -120px -60px;
+}
+.footer_icon4 i:hover{
+    background-position: -180px -60px;
+}
+.footer_icon5 i:hover{
+    background-position: -240px -60px;
+}
+.footer_icon6 i:hover{
+    background-position: -300px -60px;
+}
+.footer_icon7 i:hover{
+    background-position: -360px -60px;
+}
+.footer_bd span{
+    display:block;
+    font-size:14px;
+    color:#666;
+    margin-top:16px;
+    text-align:center;
+
+}
+.footer_myselft {
+    height: 340px;
+    background-color: #f8f8f8;
+    margin-top:40px;
+}
+.myself_body {
+    width: 1000px;
+    height: 234px;
+    margin:0 auto ;
+    text-align:center;
+    padding-top:50px;
+}
+.myself_body li {
+    width: 70px;
+    height: 90px;
+    float:left;
+    border-right:2px solid #DBDBDB;
+    margin-right:8px;
+    padding:5px 43px;
+    font-size:16px;
+    lin-height:100px;
+}
+.myself_body li a {
+    font-size:14px;
+    margin-top:5px;
+    display:block;
+}
+.myself_body ul li:nth-child(6) {
+    border-right:0;
+}
+.myself_bottom {
+    width: 1000px;
+    height: 105px;
+    margin:-100px auto;
+    text-align:center;
+    position:relative;
+}
+.myself_bottom p{
+    margin-top:6px;
+    margin-bottom:12px;
+}
+.myself_icon1{
+    width: 43px;
+    height: 43px;
+    display:inline-block;
+    background-image: url(../images/share_focus.png);
+    margin-right:26px;
+}
+.myself_icon2{
+    width: 43px;
+    height: 43px;
+    display:inline-block;
+    background-image: url(../images/share_focus.png);
+    background-position: -44px 0;
+}
+
+.myself_icon2:hover{
+    background-position: -44px -53px;
+}
+.myself_bottom div{
+    width: 243px;
+    height: 147px;
+    background-image: url(../images/gzh_wx.png);
+    position:absolute;
+    left:250px;
+    bottom:-65px;
+    display:none;
+}
+.myself_icon1:hover div{
+    display:block;
+}
+
+.footer_beian {
+    height: 70px;
+    background-color: #868686;
+    color:#DDDDDD;
+}
+.footer_beian a{
+    color:#DDDDDD;
+}
+.footer_beian_left{
+    width: 400px;
+    height: 70px;
+    float:left;
+    margin-left:42px;
+    line-height:70px;
+    font-size:14px;
+}
+.footer_beian_left a {
+    margin-right:14px;
+}
+.footer_beian_right{
+    height: 70px;
+    width: 825px;
+    float:left;
+    margin-left:50px;
+    line-height:70px;
+}
+.footer_beian_right a img {
+    vertical-align:middle;
+}
+.footer_beian_right a {
+    font-size:12px;
+}
+.footer_beian_right span {
+    font-size:12px;
+}
+.footer_beian_right a:nth-child(2) img {
+    width: 70px;
+    height: 30px;
+
+}
+/*底部样式 end*/
+
+
